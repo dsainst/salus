@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Settrans.com</title>
+    <link rel="stylesheet" href="tpl/css/960grid.css">
+    <link rel="stylesheet" href="tpl/css/style.min.css">
+    <link rel="stylesheet" href="tpl/js/slick/slick.css">
+    <script src="tpl/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="tpl/js/script.js"></script>
+    <script type="text/javascript" src="tpl/js/slick/slick.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="c12">
+            <div class="g12">
+                <div id="top">
+                    <div class="fright">
+                        <a href="registration.html" class="reg">Регистрация</a>
+                        <a href="login.html" class="login">Войти</a>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="g4 push_1">
+                <div class="logo">
+                    <a href="/">
+                        <img src="tpl/images/logo.png" alt="settrans.com">
+                    </a>
+                </div>
+            </div>
+            <div class="g7 push_1">
+                <form action="search-res.html" class="search">
+                    <input type="text" placeholder="поиск по сайту">
+                    <button type="submit">Найти</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <section id="topmenu">
+        <div class="c12">
+            <div class="g12">
+                <div class="menu">
+                    <ul>
+                        <li><a href="#">Автомобильные грузоперевозки</a></li>
+                        <li class="active"><a href="#">Транспорт</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="main">
+        <!-- Sidebar  -->
+        <div class="c12">
+            <aside class="g4">
+                <div class="wrap-line">
+                    <div class="smenu">
+                        <ul>
+                            <li><a href="#">Морские грузоперевозки  </a>
+                                <ul>
+                                    <li><a href="#">Отправить заявку на услугу</a></li>
+                                    <li><a href="poisk-zayav.html">Заявки / Мои Заявки</a></li>
+                                    <li><a href="#">Компании  (340)</a></li>
+                                    <li><a href="#">Порты (8)</a></li>
+                                    <li><a href="#">Отраслевой журнал</a></li>
+                                </ul>
+                            </li>
+                            <li class="active"><a href="#">Автомобильные грузоперевозки</a>
+                                <ul>
+                                    <li class="active"><a href="poisk-mash.html">Транспорт / Мой траспорт</a></li>
+                                    <li><a href="poisk-gruza.html">Грузы  / Мои грузы  </a></li>
+                                    <li><a href="#">Компании (2540)</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Справочник</a></li>
+                            <li><a href="#">Вакансии и резюме</a></li>
+                            <li><a href="#">Люди</a></li>
+                            <li><a href="#">Форум</a></li>
+                        </ul>
+                    </div>
+                    <div class="brnr">
+                        <a href="#"><img src="tpl/images/banr.jpg" alt="баннер"></a>
+                    </div>
+                </div>
+            </aside>
+            <div class="g8">
+                <div class="mt30">
+                    <div class="w60">
+                        <div class="paginate">
+                            <ul>
+                                <li class="prev">
+                                    <a href="#"></a>
+                                </li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#" class="current">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">6</a></li>
+                                <li class="next">
+                                    <a href="#"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <form action="#" id="mysort">
+                            <div class="sort-block">
+                                <label for="sortby">Сортировать по: </label>
+                                <div class="strelka2">
+                                    <select name="sortby" id="sortby" onchange="this.form.submit();">
+                                        <option value="sort_doc">по дате добавления</option>
+                                        <option value="pagetitle">названию</option>
+                                        <option value="price">цене</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="sort-block">
+                                <label for="sortdir">Показывать</label>
+                                <div class="strelka2">
+                                    <select name="sortdir" id="sortdir" onchange="this.form.submit();">
+                                        <option value="all">все грузы</option>
+                                        <option value="fiz">только частных лиц</option>
+                                        <option value="company">только компании</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form>
+                        <div id="result">
+                            <div class="block">
+                                <p class="date">27 апреля 2015</p>
+                                <p class="numb">№ 1289324</p>
+                                <div class="ocenka">
+                                    <span>Санкт-Петербург Владивосток </span>
+                                    <span>12.03.2012 — 12.07.2012 </span>
+                                    <span>80 т., 33 м3</span>
+                                </div>
+                                <div class="contact">
+                                    <p><b>Фирма:</b> OOO Амир</p>
+                                    <p><b>Контакты:</b> Константинопольский Константин, 8 921 390-02-12, <a href="mailto:kests@front.ru">kests@front.ru</a></p>
+                                </div>
+                                <div class="buttons">
+                                    <a href="#">Подробнее</a>
+                                    <a href="#">Встречное</a>
+                                    <a href="#">Скрыть</a>
+                                    <a href="#">Пожаловаться</a>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <p class="date">27 апреля 2015</p>
+                                <p class="numb">№ 1289324</p>
+                                <div class="ocenka">
+                                    <span>Санкт-Петербург Владивосток </span>
+                                    <span>12.03.2012 — 12.07.2012 </span>
+                                    <span>80 т., 33 м3</span>
+                                </div>
+                                <div class="contact">
+                                    <p><b>Фирма:</b> OOO Амир</p>
+                                    <p><b>Контакты:</b> Константинопольский Константин, 8 921 390-02-12, <a href="mailto:kests@front.ru">kests@front.ru</a></p>
+                                </div>
+                                <div class="buttons">
+                                    <a href="#">Подробнее</a>
+                                    <a href="#">Встречное</a>
+                                    <a href="#">Скрыть</a>
+                                    <a href="#">Пожаловаться</a>
+                                </div>
+                            </div>
+                            <div class="block">
+                                <p class="date">27 апреля 2015</p>
+                                <p class="numb">№ 1289324</p>
+                                <div class="ocenka">
+                                    <span>Санкт-Петербург Владивосток </span>
+                                    <span>12.03.2012 — 12.07.2012 </span>
+                                    <span>80 т., 33 м3</span>
+                                </div>
+                                <div class="contact">
+                                    <p><b>Фирма:</b> OOO Амир</p>
+                                    <p><b>Контакты:</b> Константинопольский Константин, 8 921 390-02-12, <a href="mailto:kests@front.ru">kests@front.ru</a></p>
+                                </div>
+                                <div class="buttons">
+                                    <a href="#">Подробнее</a>
+                                    <a href="#">Встречное</a>
+                                    <a href="#">Скрыть</a>
+                                    <a href="#">Пожаловаться</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="paginate">
+                            <ul>
+                                <li class="prev">
+                                    <a href="#"></a>
+                                </li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#" class="current">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">6</a></li>
+                                <li class="next">
+                                    <a href="#"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w40">
+                        <div class="wrap">
+                            <form action="#" id="myopt">
+                                <div class="form-group2">
+                                    <input type="button" value="Добавить свой груз" class="btn-submit">
+                                    <input type="button" value="Обновить результат" class="btn-submit">
+                                </div>
+                                <fieldset class="form-group2">
+                                    <legend>Загрузка</legend>
+                                    <label for="region">Регион</label>
+                                    <div class="strelka">
+                                        <select name="region" id="region">
+                                            <option value="sz">Северо-Западный</option>
+                                            <option value="center">Центральный</option>
+                                        </select>
+                                    </div>
+                                    <label for="city">Город</label>
+                                    <div class="strelka">
+                                        <select name="city" id="city">
+                                            <option value="spb">Санкт-Петербург</option>
+                                            <option value="msk">Москва</option>
+                                        </select>
+                                    </div>
+                                </fieldset>
+                                <fieldset class="form-group2">
+                                    <legend>Разгрузка</legend>
+                                    <label for="region2">Регион</label>
+                                    <div class="strelka">
+                                        <select name="region2" id="region2">
+                                            <option value="sz">Северо-Западный</option>
+                                            <option value="center">Центральный</option>
+                                        </select>
+                                    </div>
+                                    <label for="city2">Город</label>
+                                    <div class="strelka">
+                                        <select name="city2" id="city2">
+                                            <option value="spb">Санкт-Петербург</option>
+                                            <option value="msk">Москва</option>
+                                        </select>
+                                    </div>
+                                </fieldset>
+                                <fieldset class="form-group2">
+                                    <legend>Вес, тонн</legend>
+                                    <div class="inline">
+                                        <label for="ot">От</label>
+                                        <input type="text" id="ot">
+                                        <label for="do">До</label>
+                                        <input type="text" id="do">
+                                    </div>
+                                </fieldset>
+                                <fieldset class="form-group2">
+                                    <legend>Объем, м3</legend>
+                                    <div class="inline">
+                                        <label for="ot2">От</label>
+                                        <input type="text" id="ot2">
+                                        <label for="do2">До</label>
+                                        <input type="text" id="do2">
+                                    </div>
+                                </fieldset>
+                                <fieldset class="form-group2">
+                                    <legend>Ставка, от руб.</legend>
+                                    <input type="text" name="stavka" id="stavka">
+                                </fieldset>
+                                <fieldset class="form-group2">
+                                    <legend>Тип кузова</legend>
+                                    <select name="typec" size="6" id="typec">
+                                        <option value="spb">Тентовый</option>
+                                        <option value="msk">Закрытый</option>
+                                        <option value="msk">Фургон</option>
+                                        <option value="msk">Цементовоз</option>
+                                        <option value="msk">Цистерна</option>
+                                        <option value="msk">Эвакуатор</option>
+                                    </select>
+                                </fieldset>
+                                <input type="checkbox" id="foto">
+                                <label for="foto">Только с фото</label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="c12 ">
+            <div class="g12 bgfoot">
+                <ul class="botmenu">
+                    <li><a href="#">О проекте</a></li>
+                    <li><a href="#">Реклама на сайте</a></li>
+                    <li><a href="#">Услуги для компаний</a></li>
+                </ul>
+                <p class="copyr">© 2015</p>
+            </div>
+            <div class="g12">
+                <p class="tcentr"><a href="#">Обнаружили неточность или ошибку сообщите нам</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
