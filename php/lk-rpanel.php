@@ -11,7 +11,7 @@
                                     <li><a href="#">Сообщенния на форуме</a></li>
                                     <li><a href="lk-resume.php">Мое резюме</a></li>
                                     <li><a href="#">Мой транспорт / добавить</a></li>
-                                    <li><a href="#">Мои грузы / добавить</a></li>
+                                    <li><a href="lk-gruz.php">Мои грузы / добавить</a></li>
                                     <li><a href="lk-zayav.php">Мои заявки / добавить</a></li>
                                     <li><a href="lk-kompanii.php">Мои компании</a></li>
                                     <li><a href="lk-set.php">Настройки</a></li>
