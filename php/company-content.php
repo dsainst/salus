@@ -1,86 +1,72 @@
             <div class="g8">
                     <div class="w60">
-                    <h1 class="title-c">Добавление новой компании</h1>
-                        <form action="#" id="mysort">
-                        <fieldset class="form-group2">
-                        <p>Название компании</p>
-                        <textarea name="company" class="textarea" cols="30" rows="10"></textarea>
-                        </fieldset>
-
-                        <span>Сфера деятельности (можно выбрать несколько)</span>
-
-                        <fieldset class="form-group2">
-
-                        <legend>Морские грузоперевозки</legend>
-                            <div class="ml40">
-                                    <div class="radio-group">
-                                        <input type="checkbox" name="uslugi" id="us111" value="us" />
-                                        <label for="us111">Транспортно-экспедиторские</label>
-                                    </div>
-                                    <div class="radio-group">
-                                        <input type="checkbox" name="uslugi" id="us222" value="gruz" />
-                                        <label for="us222">Логистические</label>
-                                    </div>
-                                    <div class="radio-group">
-                                        <input type="checkbox" name="uslugi" id="us333" value="disp" />
-                                        <label for="us333">Перевозчики, судовладельцы</label>
-                                    </div>
-                                    <div class="radio-group">
-                                        <input type="checkbox" name="uslugi" id="us444" value="strah" />
-                                        <label for="us444">Таможенные брокеры</label>
-                                    </div>
-                                    <div class="radio-group">
-                                        <input type="checkbox" name="uslugi" id="us555" value="disp2" />
-                                        <label for="us555">Владельцы контейнерного парка</label>
-                                    </div>
-                                    <div class="radio-group">
-                                        <input type="checkbox" name="uslugi" id="us666" value="disp3" />
-                                        <label for="us666">Операторы портовой инфраструктуры</label>
-                                    </div>
-                                    <div class="radio-group">
-                                        <input type="checkbox" name="uslugi" id="us777" value="disp4" />
-                                        <label for="us777">Терминальные комплексы</label>
-                                    </div>
-                                    <div class="radio-group">
-                                        <input type="checkbox" name="uslugi" id="us888" value="disp5" />
-                                        <label for="us888">Страховые компании</label>
-                                    </div>
-                                    <div class="radio-group">
-                                        <input type="checkbox" name="uslugi" id="us999" value="disp6" />
-                                        <label for="us999">Фрахтовые брокеры</label>
-                                    </div>
-                                    <div class="radio-group">
-                                        <input type="checkbox" name="uslugi" id="us1010" value="disp7" />
-                                        <label for="us1010">Морские агенты</label>
-                                    </div>
-                                    </div>
-                                    <br>
-                                </fieldset>
-
-                                <fieldset class="form-group2">
-                                <legend>Автомобильные грузоперевозки</legend>
-                                <div class="ml40">
-                                    <div class="radio-group">
-                                        <input type="checkbox" name="uslugi" id="us11" value="us" />
-                                        <label for="us11">Транспортно-экспедиторские</label>
-                                    </div>
-                                    <div class="radio-group">
-                                        <input type="checkbox" name="uslugi" id="us22" value="gruz" />
-                                        <label for="us22">Логистические</label>
-                                    </div>
-                                    <div class="radio-group">
-                                        <input type="checkbox" name="uslugi" id="us33" value="disp" />
-                                        <label for="us33">Перевозчики</label>
-                                    </div>
-                                    </div>
-                                    <br>
-                                </fieldset>
-                                <div class="form-group2">
-                            <input type="button" class="btn-shadow save" value="Сохранить изменения">
-                            <input type="button" class="btn-shadow cancel" value="Отмена">
-                            <div class="clearfix"></div>
+                    <h1 class="title-c">Морские грузоперевозки. Компании</h1>
+                    <div class="paginate">
+                            <ul>
+                                <li class="prev">
+                                    <a href="#"></a>
+                                </li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#" class="current">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">6</a></li>
+                                <li class="next">
+                                    <a href="#"></a>
+                                </li>
+                            </ul>
                         </div>
+
+                        <form action="#" id="mysort">
+                            <div class="sort-block">
+                                <label for="sortby">Сортировать по: </label>
+                                <div class="strelka2">
+                                    <select name="sortby" id="sortby" onchange="this.form.submit();">
+                                        <option value="sort_doc">по дате добавления</option>
+                                        <option value="rate">рейтингу</option>
+                                        <option value="summary">количеству сотрудников</option>
+                                    </select>
+                                </div>
+                            </div>
                         </form>
+
+
+                        <div class="info-block">
+                            <div class="block2">
+                                <div class="img-block">
+                                    <img src="tpl/images/img.jpg" alt="">
+                                </div>
+                                <div class="contact">
+                                    <p class="star s5"></p>
+                                    <p><a href="ab-company.php">Квазар — таможенные услуги</a></p>
+                                    <p>Санкт-Петербург, проспект Старо-Петергофский, д. 42, офис 9</p>
+                                    </div>
+                                    <div class="tags">
+                                        <a href="#">Таможенный брокер</a>
+                                        <a href="#">экспедирование грузов</a>
+                                        <a href="#">перевозки</a>
+                                    </div>
+                                
+                            </div>
+                        <div class="block2">
+                                <div class="img-block">
+                                    <img src="tpl/images/img.jpg" alt="">
+                                </div>
+                                <div class="contact">
+                                    <p class="star s5"></p>
+                                    <p><a href="ab-company.php">Квазар — таможенные услуги</a></p>
+                                    <p>Санкт-Петербург, проспект Старо-Петергофский, д. 42, офис 9</p>
+                                    </div>
+                                    <div class="tags">
+                                        <a href="#">Таможенный брокер</a>
+                                        <a href="#">экспедирование грузов</a>
+                                        <a href="#">перевозки</a>
+                                    </div>
+                                
+
+                            </div>
+                        </div>
                         <div class="paginate">
                             <ul>
                                 <li class="prev">
@@ -100,9 +86,9 @@
                     </div>
                     <div class="w40">
                         <div class="wrap">
-                            <form action="#" id="myopt">
+                            <form action="company-add.php" id="myopt">
                                 <div class="form-group2">
-                                    <input type="button" value="Добавить новую компанию" class="btn-submit">
+                                    <input type="submit" value="Добавить новую компанию" class="btn-submit">
                                 </div>
                                 <fieldset class="form-group2">
                                     <div class="radio-group">

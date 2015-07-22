@@ -13,7 +13,7 @@ include 'php/topmenu2.php'; // шапка
 <?php
 include 'php/aside2.php'; // шапка
 
-include 'php/companyadd-content.php'; // content 
+include 'php/ab-company-content.php'; // content 
 ?>
 </div>
 </section>

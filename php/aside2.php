@@ -6,7 +6,7 @@
                                 <ul>
                                     <li><a href="send.php">Отправить заявку на услугу</a></li>
                                     <li><a href="poisk-zayav.php">Заявки / Мои Заявки</a></li>
-                                    <li><a href="company-add.php">Компании  (340)</a></li>
+                                    <li><a href="company.php">Компании  (340)</a></li>
                                     <li><a href="porti.php">Порты (8)</a></li>
                                     <li><a href="#">Отраслевой журнал</a></li>
                                 </ul>
