@@ -7,7 +7,7 @@
                                 <ul>
                                     <li><a href="lk.php">Обо мне</a></li>
                                     <li><a href="#">Мои отзывы</a></li>
-                                    <li><a href="#">Мои коментарии </a></li>
+                                    <li><a href="lk-comments.php">Мои коментарии </a></li>
                                     <li><a href="#">Сообщенния на форуме</a></li>
                                     <li><a href="lk-resume.php">Мое резюме</a></li>
                                     <li><a href="#">Мой транспорт / добавить</a></li>
