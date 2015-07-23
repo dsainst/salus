@@ -91,6 +91,7 @@
                                     <input type="submit" value="Добавить новую компанию" class="btn-submit">
                                 </div>
                                 <fieldset class="form-group2">
+                                <p><i>Выберите, какие компании отображать в списке </i></p>
                                     <div class="radio-group">
                                         <input type="checkbox" name="uslugi" id="us1" value="us" />
                                         <label for="us1">Транспортно-экспедиторские</label>

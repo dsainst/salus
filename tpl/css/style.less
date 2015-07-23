@@ -88,12 +88,20 @@ fieldset {
     text-align: center;
 }
 
+.mb10 {
+    margin-bottom: 10px;
+}
+
 .mb20 {
     margin-bottom: 20px;
 }
 
 .pr10 {
  padding-right: 10px;
+}
+
+.pr20 {
+ padding-right: 20px;
 }
 
 .mt30 {
@@ -1451,6 +1459,33 @@ clear: right;
     margin-bottom: 20px;
 }
 
+.comment {
+    p {
+        margin-top: 0;
+    }
+    .date {
+        display: block;
+        color: #1d1c1c;
+        margin-bottom: 10px;
+    }
+}
+
+.title-comment {
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-left: -20px;
+  padding-left: 20px;
+  background-color: #136E87;
+  color: #fff;
+  padding: 0 20px;
+    line-height: 21px;
+  margin-right: -10px;
+  .addcomment {
+    font-size: 12px;
+    color: #fff;
+  }
+}
+
 .title-block3 {
       background: url(../images/plash2.png) no-repeat;
   width: 317px;
@@ -1473,3 +1508,43 @@ clear: right;
 padding-right: 150px;
   width: 100%;
 }
+
+.carousel {
+      overflow: hidden;
+        margin-bottom: 20px;
+    .slick-track {
+        height: auto;
+    }
+
+    .absol {
+          height: 18px;
+  background: url(../images/rgo3.png) no-repeat;
+  padding-left: 30px;
+    float: left;
+  line-height: 1.5em;
+  cursor: pointer;
+  &:hover {
+    background: url(../images/rgo4.png) no-repeat;
+  }
+    }
+
+    .absol2 {
+                  height: 18px;
+  background: url(../images/rgo.png) top right no-repeat;
+  padding-right: 30px;
+    float: right;
+  cursor: pointer;
+  line-height: 1.5em;
+    margin-right: 50px;
+    &:hover {
+    background: url(../images/rgo2.png) top right no-repeat;
+  }
+    }
+}
+
+.com-block .block2 .img-block {
+    margin-right: 15px;
+    img {
+    width: 35px;
+}
+    } 
