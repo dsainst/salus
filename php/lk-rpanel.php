@@ -1,6 +1,6 @@
 <div class="lk-rpanel">
                             <div class="avatar">
-                            <p><a href="#">загрузить фото</a></p>
+                            <p><a href="lk-addphoto.php">Добавить фото</a></p>
                                 <img src="tpl/images/ava.jpg" alt="фотоаватар">
                             </div>
                             <div class="me-block">

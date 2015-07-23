@@ -1377,7 +1377,7 @@ footer {
   margin-bottom: 20px;
   p {
    position: absolute;
-   z-index: 1;
+   z-index: 5;
    line-height: 130px;
    margin: 0;
    text-align: center;
@@ -1548,3 +1548,81 @@ padding-right: 150px;
     width: 35px;
 }
     } 
+
+    .fjblock {
+        position: relative;
+        label {
+            position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  background-color: #2fc0e7;
+  cursor: pointer;
+        }
+    }
+
+    .preview {
+        clear: both;
+        width: 140px;
+        height: 140px;
+        overflow: hidden;
+        position: relative;
+        background: #777;
+        margin-bottom: 20px;
+        p {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+  line-height: 140px;
+  z-index: 0;
+        }
+        img {
+            position: relative;
+            z-index: 1;
+        }
+    }
+
+    .big-photo {
+        clear: both;
+        width: 320px;
+        height: 320px;
+        overflow: hidden;
+        position: relative;
+        background: #ddd;
+        margin-bottom: 20px;
+        .fragment {
+            border: 1px dashed #777;
+            position: absolute;
+            width: 140px;
+            height: 140px;
+            top: 15px;
+            left: 15px;
+            p {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+  line-height: 140px;
+  z-index: 0;
+        }
+        }
+        p {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+  line-height: 350px;
+  z-index: 0;
+        }
+        img {
+            position: relative;
+            z-index: 1;
+        }
+    }
