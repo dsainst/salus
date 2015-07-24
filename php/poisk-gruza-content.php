@@ -22,7 +22,7 @@
                                 <label for="sortby">Сортировать по: </label>
                                 <div class="strelka2">
                                     <select name="sortby" id="sortby" onchange="this.form.submit();">
-                                        <option value="sort_doc">по дате добавления</option>
+                                        <option value="sort_doc">дате добавления</option>
                                         <option value="pagetitle">названию</option>
                                         <option value="price">цене</option>
                                     </select>
@@ -127,17 +127,25 @@
                                 </div>
                                 <fieldset class="form-group2">
                                     <legend>Чьи услуги интересуют</legend>
+                                    <div class="radio-group">
                                     <input type="checkbox" name="gruz" id="ex1" value="ex" />
                                     <label for="ex1">Экспедиторы</label>
-                                    <br>
+                                    </div>
+                                    
+                                    <div class="radio-group">
                                     <input type="checkbox" name="gruz" id="ex2" value="gruz" />
                                     <label for="ex2">Грузоперевозчики</label>
-                                    <br>
+                                    </div>
+                                    
+                                    <div class="radio-group">
                                     <input type="checkbox" name="gruz" id="ex3" value="disp" />
                                     <label for="ex3">Диспетчеры</label>
-                                    <br>
+                                    </div>
+                                    
+                                    <div class="radio-group">
                                     <input type="checkbox" name="gruz" id="ex4" value="strah" />
                                     <label for="ex4">Страховые компании</label>
+                                    </div>
                                     <br>
                                 </fieldset>
                                 <fieldset class="form-group2">

@@ -22,7 +22,7 @@
                                 <label for="sortby">Сортировать по: </label>
                                 <div class="strelka2">
                                     <select name="sortby" id="sortby" onchange="this.form.submit();">
-                                        <option value="sort_doc">по дате добавления</option>
+                                        <option value="sort_doc">дате добавления</option>
                                         <option value="pagetitle">названию</option>
                                         <option value="price">цене</option>
                                     </select>
@@ -189,8 +189,12 @@
                                         <option value="msk">Эвакуатор</option>
                                     </select>
                                 </fieldset>
+                                <fieldset class="form-group2">
+                                    <div class="radio-group">
                                 <input type="checkbox" id="foto">
                                 <label for="foto">Только с фото</label>
+                                </div>
+                                </fieldset>
                             </form>
                         </div>
                     </div>

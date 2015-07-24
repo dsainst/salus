@@ -21,9 +21,11 @@
                             <input type="text" id="pass" class="itext">
                             <p class="error">Место для вывода сообщений об ошибках</p>
                         </div>
-                        <div class="form-group">
+                        <div class="form-group2 mb10">
+                        <div class="radio-group">
                             <input type="checkbox" id="agree" class="itext">
                             <label for="agree">Я согласен с <a href="#">условиями пользования порталом</a></label>
+                            </div>
                         </div>
                         <div class="form-group">
                             <input type="submit" class="btn-submit" value="Зарегистрироваться">

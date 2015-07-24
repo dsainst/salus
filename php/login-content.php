@@ -12,9 +12,11 @@
                             <input type="text" id="pass" class="itext">
                             <input type="submit" class="btn-submit vin" value="Войти">
                         </div>
-                        <div class="form-group">
+                        <div class="form-group2">
+                        <div class="radio-group">
                             <input type="checkbox" id="other" class="itext">
                             <label for="other" class="fleft">Чужой компьютер</label><a href="forgot.php" class="fright">Забыли пароль</a>
+                            </div>
                         </div>
                         <div class="form-group">
                             <p class="error">Место для вывода сообщений об ошибках</p>

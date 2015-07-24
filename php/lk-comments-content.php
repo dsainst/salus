@@ -26,7 +26,7 @@
                                 <label for="sortby">Сортировать по: </label>
                                 <div class="strelka2">
                                     <select name="sortby" id="sortby" onchange="this.form.submit();">
-                                        <option value="sort_doc">по дате</option>
+                                        <option value="sort_doc">дате</option>
                                         <option value="pagetitle">названию</option>
                                         <option value="price">цене</option>
                                     </select>

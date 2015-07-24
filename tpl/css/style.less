@@ -1107,14 +1107,17 @@ footer {
             margin: 0;
             margin-right: 10px;
             margin-bottom: 5px;
+            
         }
         label {
             clear: right;
             display: block;
-              margin-left: 18px;
+              padding-left: 18px;
+                background: url(../images/check.png) left 2px no-repeat;
             &.active {
                 color: #197e9a;
             }
+            
         }
     }
     input[type="text"] {
@@ -1133,6 +1136,11 @@ footer {
         float: left;
         margin: 0;
         margin-right: 5px;
+        opacity: 0;
+          position: absolute;
+            &:checked~label {
+                background: url(../images/check2.png) left 2px no-repeat !important;
+            }
     }
     .inline input {
         display: inline-block;
@@ -1294,6 +1302,38 @@ footer {
 }
 
 .text-body {
+    padding-right: 12px;
+}
+
+.input40 {
+    width: 40% !important;
+    margin-right: 15px;
+    float: left;
+      height: 38px !important;
+}
+
+.block3 {
+    border-bottom: 1px solid #2fc0e7;
+  margin-bottom: 20px;
+  margin-left: -20px;
+  padding-left: 20px;
+  width: 380px;
+  overflow: hidden;
+  .img-block {
+      margin-right: 20px;
+  float: left;
+  margin-top: 4px;
+  }
+  .text {
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .comments {
+      margin-right: 10px;
+  }
+}
+
+.text-body {
     h2 {
         margin-bottom: 10px;
     }
@@ -1339,6 +1379,10 @@ footer {
 
 .info-block {
  margin-bottom: 30px;
+
+ .text-block {
+    padding-right: 12px;
+ }
   h2 {
   margin-bottom: 10px;
   font-family: 'Tahoma', sans-serif;
@@ -1377,7 +1421,7 @@ footer {
   margin-bottom: 20px;
   p {
    position: absolute;
-   z-index: 5;
+   z-index: 2;
    line-height: 130px;
    margin: 0;
    text-align: center;
