@@ -1,5 +1,5 @@
 $(function() {
-$('.slideme').slick({
+    $('.slideme').slick({
         arrows: false,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -11,7 +11,7 @@ $('.slideme').slick({
         autoplaySpeed: 4000
     });
 
-$('.carousel').slick({
+    $('.carousel').slick({
         arrows: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -25,29 +25,35 @@ $('.carousel').slick({
         autoplaySpeed: 4000
     });
 
-/*разворачивание и сворачивание редактирования контактной инфы в ЛК*/
-$('.cancel').click(function(){
-$('.edit').html('Редактировать');
-          nom=1;
-          $('.infome').stop().slideToggle();
-        $('.showclick').stop().slideToggle();
-});
-        var nom=1;
-    $('.edit').click(function(){
-        if (nom==1) {
-        $(this).html('Свернуть');
-        nom=nom+2;
+    $('#openf').click(function(e) {
+        e.preventDefault();
+        $('#hideme').stop().slideToggle();
+        $('#openf').hide();
+    });
+
+    /*разворачивание и сворачивание редактирования контактной инфы в ЛК*/
+    $('.cancel').click(function() {
+        $('.edit').html('Редактировать');
+        nom = 1;
         $('.infome').stop().slideToggle();
         $('.showclick').stop().slideToggle();
+    });
+    var nom = 1;
+    $('.edit').click(function() {
+        if (nom == 1) {
+            $(this).html('Свернуть');
+            nom = nom + 2;
+            $('.infome').stop().slideToggle();
+            $('.showclick').stop().slideToggle();
         } else {
-          $(this).html('Редактировать');
-          nom=1;
-          $('.infome').stop().slideToggle();
-        $('.showclick').stop().slideToggle();
+            $(this).html('Редактировать');
+            nom = 1;
+            $('.infome').stop().slideToggle();
+            $('.showclick').stop().slideToggle();
         }
     });
 
-    $('.edit2').click(function(e){
+    $('.edit2').click(function(e) {
         e.preventDefault();
         $(this).next().stop().slideToggle();
     });

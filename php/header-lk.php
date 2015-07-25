@@ -11,9 +11,9 @@
                     <div class="hmenu2">
                         <ul>
                         <li><a href="lk-notify.php">Уведомления (12)</a></li>
-                            <li class="active"><a href="#">Платные услуги портала</a></li>
+                            <li class="active"><a href="lk-uslugi.php">Платные услуги портала</a></li>
                             
-                            <li><a href="#">Задать вопрос</a></li>
+                            <li><a href="lk-vopros.php">Задать вопрос</a></li>
                         </ul>
                     </div>
                     <div class="fright">
